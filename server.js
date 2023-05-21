@@ -29,7 +29,7 @@ app.listen(PORT, () => console.log(`Server Started on Port ${PORT}`))
 
 router.use((req, res, next) => {
     console.log("middleware")
-    // next();
+    next();
 })
 
 router.route("/getEmployee").get((req, response) => {
