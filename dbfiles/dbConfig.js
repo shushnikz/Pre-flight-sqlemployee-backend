@@ -1,3 +1,4 @@
+// Connecting sql database
 const config = {
     user: "Sushmitha",
     password: "Shush129",
@@ -9,7 +10,7 @@ const config = {
         enableArithAort: true,
         instancename: "SQLEXPRESS"
     },
-    port: 1433
+    port: 52463
 }
 
 module.exports = config;

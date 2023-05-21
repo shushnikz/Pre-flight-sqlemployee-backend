@@ -1,6 +1,7 @@
 const config = require("./dbConfig");
 const sql = require("mssql");
 
+// connecting sql config and other opeation
 const getEmployees = async () => {
     try {
         console.log("Reached1")
