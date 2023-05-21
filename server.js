@@ -20,6 +20,10 @@ app.use(bodyParser.json())
 
 app.use("/api", router)
 
+app.get('/', (req, res) => {
+    res.send("Sql Employee Data")
+})
+
 const PORT = 5000;
 app.listen(PORT, () => console.log(`Server Started on Port ${PORT}`))
 
