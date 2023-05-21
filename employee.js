@@ -1,3 +1,5 @@
+// creating class which represent employee table
+
 class Employee {
     constructor(EmployeeID, FirstName, LastName, Age, Gender) {
         this.EmployeeID = EmployeeID;
